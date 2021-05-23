@@ -18,12 +18,12 @@ function App()
 <Header/>
  <Switch>
 <Route exact path='/' component={Starting}/>
-<Route exact path='/Dance' component={Dance}/>
-<Route exact path='/Todo' component={Todolist}/>
-<Route exact path='/Bhangda' component={Bhangda}/>
-<Route exact path='/Western' component={Western}/>
-<Route exact path='/Classical' component={Classical}/>
-<Route exact path='/Contact' component={Contact}/>
+<Route path='/Dance' component={Dance}/>
+<Route path='/Todo' component={Todolist}/>
+<Route path='/Bhangda' component={Bhangda}/>
+<Route path='/Western' component={Western}/>
+<Route path='/Classical' component={Classical}/>
+<Route path='/Contact' component={Contact}/>
 
 </Switch>
 </div>
