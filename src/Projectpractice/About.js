@@ -1,32 +1,20 @@
 import React from "react";
+import "./Style4.css";
 
 const About = () => {
     return(
         <>
-       <section id="header" className="d-flex align-items-center">
-           <div className="container-fluid nav_bg">
-               <div className="row">
-                   <div className="col-10 mx-auto">
-                       <div class="row">
-                        
-                       <div className="col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex  justify-content-center flex-column try">
-                           <h1>grow ur businesss </h1>
-                           <h2 className="my-3">we r technical team</h2>
-                           <div className="mt-3">
-                               <a href="" className="btn btn-outline-dark">get started </a>
-                          
-                       </div>
-                       </div>
-                       <div className="col-lg-6 order-1 order-lg-2 header-img">
-<img src="https://picsum.photos/200/300?grayscale" className="img-fluid animated"alt="x d"/>
-                       </div>
-                   </div>
-                   
-                   </div>
-
-               </div>
-           </div>
-       </section>
+     <div className="w-100 bg-light aboutdiv">
+         <div className="container">
+         <h1 className="text-center">ABOUT</h1>
+     <p className="textabout">Dance is generally, though not exclusively, performed with the 
+     accompaniment of music and may or may not be performed in time to such music. Some dance (such as tap dance) may provide its own audible accompaniment in place of (or in addition to) music. Many early forms of music and dance were created for each other and are frequently performed together. Notable examples of 
+      traditional dance/music couplings include the jig, waltz, tango, disco, and salsa.
+       Some musical genres have a parallel dance form such as baroque music and baroque
+        dance; other varieties of dance and music may share nomenclature 
+     but developed separately, such as classical music and classical ballet.</p>
+     </div>
+     </div>
         </>
     )
     

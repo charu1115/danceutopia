@@ -1,6 +1,6 @@
 import React from "react";
-import Card from "./Card"
-import Contact from "./Contact"
+//import Card from "./Card"
+import Contact from "../Projectpractice/Contact"
 const Services = () => {
     return(
         <>

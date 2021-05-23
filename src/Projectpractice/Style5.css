@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.contact{
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXYw19jkIthxUulWIsWk6oS0Ui9vxbLNzt9w&usqp=CAU')no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100vh;
+    margin-top:5rem;
+}
+.head{
+    background-color: rgb(185, 19, 185);
+    border-radius: 5px;
+    margin-top: -40px;
+    -webkit-box-shadow: -1px 9px 27px -8px rgba(235,23,235,1);
+    -moz-box-shadow: -1px 9px 27px -8px rgba(235,23,235,1);
+    box-shadow: -1px 9px 27px -8px rgba(235,23,235,1);
+}
+.effect-1{
+    border: 0;
+    outline: none;
+    width: 100%;
+    padding: 7px 0;
+    border-bottom: 1px solid #ccc;
+}
+.effect-1 ~ .Focus-border{
+    postion: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: rgba(235,23,235,1);
+    transition: 0.4s;
+}
+.effect-1:focus ~ .Focus-border{
+    width: 100%;
+    transition: 0.4s;
+    left: 0;
+}
+.btn2{
+    background: rgba(235,23,235,1);
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 145px;
+    
+}
+@media(min-width:991px)
+{
+    .btn2{
+        margin-left:7rem;
+    }
+}

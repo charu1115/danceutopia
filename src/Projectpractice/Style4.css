@@ -1,0 +1,50 @@
+footer{
+    color: whitesmoke;
+    padding: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 0;
+}
+.aboutdiv
+{
+    padding-top: 3rem;
+    margin: auto;
+    padding-bottom: 2rem;
+    margin-top:2rem;
+}
+
+.textabout
+{
+    padding-top: 1rem;
+    font-weight: bold;
+    padding-bottom: 5rem;
+    margin: auto;
+}
+h1{
+    font-size: 3rem;
+    text-decoration: underline;
+}
+.contactdiv
+{
+    margin: auto;
+    width:30rem;
+    padding: 2rem;
+    margin-top: 6rem;
+ 
+}
+.send
+{
+    margin-left: 8rem;
+}
+@media(max-width:991px) {
+
+   .contactdiv
+{
+   width:22rem;
+  margin-top: 6rem;
+  margin-left: 0rem;
+} 
+.h1contact
+{
+    margin-left:0rem;
+}
+}

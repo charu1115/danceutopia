@@ -1,0 +1,38 @@
+import React from "react";
+import "./Style4.css";
+const Contact = () => {
+    return(
+        <>
+      <div className=" bg-light contactdiv">
+        <h1 className="text-center h1contact">Contact-us</h1>
+        <div className="mt-5">
+        <table>
+<tr>
+<td><b>  Name:</b></td>
+<td><input type="text" name="name" id="name" size="25" placeholder="Enter your Name"/>
+</td>
+</tr>
+<tr>
+<td ><br/><b>Email-Id:</b></td>
+<td><br/><input type="email" id="email"  name="email" size="28" placeholder="Enter email id"/>
+</td>
+</tr>
+<br/>
+<tr>
+<td ><br/><b>Message</b></td>
+<td ><br/><textarea class="text"rows="3" cols="30" name="road"></textarea>
+</td>
+</tr>
+</table>
+<br/>
+<button className="btn btn-dark send">Send</button>
+</div>
+
+
+      </div>
+        </>
+        
+    )
+}
+
+export default Contact
