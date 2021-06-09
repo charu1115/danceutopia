@@ -2,7 +2,7 @@ import React from "react"
 import Data from "./Data"
 import Alldance from "./Alldance";
 import { NavLink } from "react-router-dom";
-const a="a"
+
 const Bhangda = () => {
 return(
     <>

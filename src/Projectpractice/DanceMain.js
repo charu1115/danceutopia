@@ -11,7 +11,7 @@ const DanceMain = (props) => {
                         <div className="price-top">
                             <h6>{props.name}</h6>
                          </div>
-                        <NavLink className="btn room-link" to={props.link}>Browse Vedios</NavLink>
+                        <NavLink className="btn room-link" to={props.link}>Browse Videos</NavLink>
                         </div>
                         <p className="room-info">{props.text}</p>
                         </article>
