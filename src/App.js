@@ -18,7 +18,11 @@ function App()
 <Header/>
 
  <Switch>
+<<<<<<< HEAD
  <Route exact path='/danceutopia' component={Starting}/>
+=======
+<Route exact path='/danceutopia/' component={Starting}/>
+>>>>>>> 74eb394c5dcf77cd0cefbbdc3e9e1d19d0bf20fb
 <Route  path='/Starting' component={Starting}/>
 <Route path='/Dance' component={Dance}/>
 <Route path='/Todo' component={Todolist}/>
